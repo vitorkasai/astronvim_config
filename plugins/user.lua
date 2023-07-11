@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    "ThePrimeagen/vim-be-good",
+    cmd = { "VimBeGood" },
+  },
 }
